@@ -1,0 +1,26 @@
+ {% extends 'base.html' %}
+
+ {% block body %}
+
+    <div class="Cuerpo_Boyaca">
+    <div class="presentacion_Boyaca">
+        <h1 class="presentacion_Boyaca_Titulo">Boyaca</h1>
+        <p class="presentacion_Boyaca_Parrafo">Boyacá es un departamento del centro de 
+        ​Colombia que se ubica principalmente dentro de la ​cordillera de los Andes oriental,
+        bordeando ​Venezuela al noreste. Tiene ciudades coloniales ​que se destacan por su arquitectura 
+        y fue el lugar ​de victorias cruciales durante la lucha de Colombia ​por su independencia. 
+        La impresionante escultura ​del Monumento a los Lanceros, cerca de la ciudad ​de Paipa, 
+        celebra la batalla del Pantano de Vargas ​de 1819.</p>
+    </div>
+    <div class="imagen_boyaca">
+        <img class="imagen_boyaca_img" src="{{url_for('static', filename='assets/Fondo-Boyaca.jpg')}}" alt="">
+    </div>
+    </div>
+    <div class="div_mapa">
+        <h2 class="titulo_mapa">Informacion Boyaca
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1016067.1904333509!2d-73.96720533518945!3d5.853866184955017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e69a475f890a283%3A0xffe1255b64bc9ff7!2zQm95YWPDoQ!5e0!3m2!1ses!2sco!4v1722785130755!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </h2>
+        <p class="parrafo_mapa"> Boyacá es un territorio diverso, con una amplia riqueza de flora y fauna, variedad de aves, todos los pisos térmicos, cinco cuencas hidrográficas, la mayor masa glaciar de Colombia y con un reconocimiento mundial por la producción de valiosas esmeraldas. Nuestros ecosistemas van desde las nieves perpetuas hasta los terrenos desérticos; páramos, lagunas, cascadas, valles y montañas, pueden ser recorridas en un entorno de paz y seguridad. Las condiciones geográficas y culturales de este Departamento, permiten ofrecer maravillosas aventuras con una adecuada infraestructura; ya sea surcando los aires en parapente, escalando montañas, respirando el aire puro de nuestros páramos, liberando adrenalina en ríos y cascadas, pedaleando a 3.200 msnm o caminado por desiertos. En todo caso, queremos decirles que Boyacá, es para vivirla.</p>
+    </div>
+
+{% endblock %}

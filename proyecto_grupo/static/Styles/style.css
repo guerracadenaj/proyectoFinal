@@ -1,0 +1,180 @@
+
+header{
+    background-color: #234133;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-image: url("../assets/img.jpg");
+    background-size: cover;
+}
+.Inicio{
+    padding: 3%;
+    margin: 0% 0% 0% 2%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.titulo{
+    padding: 3%;
+    margin: 0% 0% 0% 10%;
+    font-size: 2.5rem;
+    color: burlywood;
+}
+.Boyaca{
+    padding: 3%;
+    margin: 0% 0% 0% 0%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.Cundinamarca{
+    padding: 3%;
+    margin: 0% 0% 0% 0%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.Contacto{
+    padding: 3%;
+    margin: 0% 2% 0% 0%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.Presentacion{
+    background-color: #234133;
+    margin: 0 auto;
+    margin: 15% 30% 0% 30%;
+    padding: 1% 3% 1% 3%;
+}
+.Presentacion_Titulo{
+    margin: 0% 0% 0% 15%;
+    color: white;
+    font-size: 3rem;
+}
+.Presentacion_Subtitulo{
+    margin: 3% 0% 0% 35%;
+    color: white;
+    font-size: 2rem;
+}
+/* Hasta aqui llega el diseño de la pagina principal */
+
+.Cuerpo_Boyaca{
+    display: flex;
+}
+.presentacion_Boyaca{
+    z-index: 2;
+    background-color: white;
+    justify-content: center;
+    width: 30%;
+    margin: 7% -15% 5% 20%;
+    padding: 2%;   
+}
+.presentacion_Boyaca_Titulo{
+    font-size: 4rem;
+    margin: 0% 0% 0% 25%;
+}
+.presentacion_Boyaca_Parrafo{
+    font-size: 1.8rem;
+}
+.imagen_boyaca{
+    z-index: 1;   
+    height: 100%;
+    margin: 2%;
+    
+}
+
+
+.Cuerpo_Cundi{
+    display: flex;
+}
+
+.presentacion_Cundi{
+    background-color: white;
+    height: 10%;
+    z-index: 2;
+    justify-content: center;
+    margin: 5% -65% 0% 45%;
+    padding: 0% 7% 0% 2%; 
+}
+.presentacion_Cundi_Titulo{
+    font-size: 4rem;
+    margin: 3% 0% 0% 16%;
+}
+.presentacion_Cundi_Parrafo{
+    font-size: 1.8rem;
+}
+.imagen_Cundi{
+    z-index: 1;   
+    margin: 1%;
+}
+.imagen_Cundi_img{
+    height: 50%;
+}
+
+/* estilos para mapa.html y footer */
+.pie_de_pagina {
+    background-color: #17201b;
+    position:fixed;
+    z-index: 3;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+ul.lista_footer li {
+    list-style: none;
+    display: inline;
+    padding-right:  0.5em;
+}
+
+.facebook {
+    font-size: 1rem;
+    color: azure;
+    padding-right: 4em;
+    text-decoration: none;
+}
+
+.face_ico {
+    width: 24px;
+    height:24px ;
+}
+.instagram {
+    font-size:  1rem;
+    color:azure;
+    padding-right: 4em;
+    text-decoration: none;
+}
+.ig_ico {
+    width: 24px;
+    height:24px ;
+}
+
+.copyright {
+    font-size:  1rem;
+    color:azure;
+}
+
+/* mapas */
+
+.div_mapa{
+    background-color: #234133;
+    padding: 2%;
+    display: flex;
+}
+.titulo_mapa{
+    color: white;
+    font-size: 2rem;
+    margin: 2%;
+}
+.mapa{
+ margin: 1%;
+}
+.parrafo_mapa {
+    padding: 5%;
+    color:  white;
+    font-size: 1.2rem;
+}

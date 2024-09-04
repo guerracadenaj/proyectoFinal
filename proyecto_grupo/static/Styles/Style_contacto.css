@@ -1,0 +1,109 @@
+header{
+    background-color: #234133;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: #17201b;
+}
+.Inicio{
+    padding: 3%;
+    margin: 0% 0% 0% 2%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.titulo{
+    padding: 3%;
+    margin: 0% 0% 0% 10%;
+    font-size: 2.5rem;
+    color: burlywood;
+}
+.Boyaca{
+    padding: 3%;
+    margin: 0% 0% 0% 0%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.Cundinamarca{
+    padding: 3%;
+    margin: 0% 0% 0% 0%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.Contacto{
+    padding: 3%;
+    margin: 0% 2% 0% 0%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.presentacion_contacto{
+    display: flex;
+}
+.imagen_1{
+    margin: 0%;
+    height: 10%;
+}
+.imagen_2{
+    margin: 0% 2% 0% 2%;
+    width: 20%;
+}
+.Estudiantes{
+    margin: 7% 0% 7% 0%;
+    padding: 1% 10% 1% 10%;
+}
+.Estudiantes_titulo{
+    color: burlywood;
+    font-size: 4rem;
+}
+.Esudiantes_lista{
+    color: white;
+    font-size: 2.1rem;
+}
+/* estilos para mapa.html y footer */
+.pie_de_pagina {
+    background-color: #101612;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+ul.lista_footer li {
+    list-style: none;
+    display: inline;
+    padding-right:  0.5em;
+}
+
+.facebook {
+    font-size: 1rem;
+    color: azure;
+    padding-right: 4em;
+    text-decoration: none;
+}
+
+.face_ico {
+    width: 24px;
+    height:24px ;
+}
+.instagram {
+    font-size:  1rem;
+    color:azure;
+    padding-right: 4em;
+    text-decoration: none;
+}
+.ig_ico {
+    width: 24px;
+    height:24px ;
+}
+
+.copyright {
+    font-size:  1rem;
+    color:azure;
+}
+

@@ -1,0 +1,19 @@
+  {% extends 'base_contacto.html' %}
+
+  {% block body %}
+
+  <div class="presentacion_contacto">
+      <img class="imagen_1" src="{{url_for('static', filename='assets/hojas_1.jpg')}}" alt="" />
+      <img class="imagen_2" src="{{url_for('static', filename='assets/hojas_2.jpg')}}" alt="" />
+      <div class="Estudiantes">
+        <h1 class="Estudiantes_titulo">ESTUDIANTES</h1>
+        <ul class="Esudiantes_lista">
+          <li>David Garcia</li>
+          <li>Yuli Aguilar</li>
+          <li>Jhaireth Calleja</li>
+          <li>Luisa Merchan</li>
+        </ul>
+      </div>
+    </div>
+  
+{% endblock %}

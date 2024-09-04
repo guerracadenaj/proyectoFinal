@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <div class="Cuerpo_Cundi">
+    <div class="presentacion_Cundi">
+        <h1 class="presentacion_Cundi_Titulo">Cundinamarca</h1>
+        <p class="presentacion_Cundi_Parrafo">Cundinamarca es una región central de Colombia en torno a Bogotá,
+            ​la extensa capital del país que se encuentra a gran altura. La ​Candelaria, el centro con adoquines de 
+            la ciudad, tiene lugares de la ​era colonial, como el Teatro Colón, de estilo neoclásico, y la Iglesia 
+            de ​San Francisco del siglo XVII. También cuenta con el Museo Botero, que ​exhibe el arte de Fernando Botero, 
+            y el Museo del Oro, con piezas de ​oro precolombinas</p>
+    </div>
+    <div class="imagen_Cundi">
+        <img class="imagen_Cundi_img" src="{{url_for('static', filename='assets/Fondo_cundinamarca.jpg')}}" alt="">
+    </div>
+    </div>
+    <div class="div_mapa">
+       <h2 class="titulo_mapa"> Informacion cundinamarca 
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1017839.2595165528!2d-74.63120960728516!3d4.781232905095694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f28eb1616af2b%3A0x933cbcb5fad108ed!2sCundinamarca!5e0!3m2!1ses!2sco!4v1722784858266!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </h2>
+        <p class="parrafo_mapa">Cundinamarca es un departamento privilegiado en términos de biodiversidad. Alberga diversos paisajes que van desde relieves bajos y planos hasta montañosos, por donde revolotean más de 900 especies de aves. También es un territorio de agua, representado en páramos como Sumapaz (el más grande del mundo), Chingaza, Rabanal y Guerrero, y los cauces de ríos como Magdalena, Bogotá, Negro y Apulo.
+
+            Al contar con todos los pisos térmicos, su repertorio de flora y fauna es amplio y diverso. Frailejones, bromelias, quiches y cóndores en sus complejos de páramo; tinguas y alcaravanes en los humedales de la sabana; osos de anteojos, dantas y venados en sus tupidas montañas de niebla; tortugas charapas y babillas en las arenas blancas del río Magdalena; y 87 tipos de orquídeas y 83 de colibríes, son algunas de las joyas naturales que hacen presencia en las más de 2,4 millones de hectáreas cundinamarquesas.
+            En los pocos relictos de bosque seco que han logrado sobrevivir a la deforestación y la ganadería extensiva, habitan tigrillos, guacamayas, micos, loras y pericos, mientras que por los 380 kilómetros del río Bogotá, a pesar de sus altos grados de contaminación, los expertos han identificado especies cercanas a la extinción como la tingua bogotana y el cucarachero de pantano.  </p>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tu mundo</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='Styles/Style_contacto.css')}}" />
+    <link rel="icon" href="{{url_for('static', filename='assets/main_icon.png')}}">
+  </head>
+<body>
+  <header>
+      <a class="Inicio" href="{{ url_for('principal')}}">Inicio</a>
+      <div class="titulo">TU MUNDO</div>
+      <a class="Boyaca" href="{{ url_for('boyaca')}}">Boyaca</a>
+      <a class="Cundinamarca" href="{{ url_for('cundi')}}">Cundinamarca</a>
+      <a class="Contacto" href="{{ url_for('contacto')}}">Contacto</a>
+  </header>
+
+  {% block body %}
+
+  {% endblock %}
+
+</body>
+<footer class="pie_de_pagina">        
+    <ul class="lista_footer">
+        <li><a class="facebook" href="https://www.facebook.com/?locale=es_LA " target="_blank">Faceboock <img class ="face_ico"src ="{{url_for('static',filename='assets/facebook.png')}}" alt="icono facebook"></a></li>
+        <li><a class="instagram"href="https://www.instagram.com/" target="_blank">Intagram <img class="ig_ico" src="{{url_for('static',filename='assets/instagram.png')}}" alt="icono instagram"></a></li>
+        <li><a class="copyright" >&copy;2024 Nico,Jhaireth,Luisa</a></li>
+    </ul>
+</footer>
+</html>

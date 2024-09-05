@@ -22,5 +22,13 @@
         </h2>
         <p class="parrafo_mapa"> Boyacá es un territorio diverso, con una amplia riqueza de flora y fauna, variedad de aves, todos los pisos térmicos, cinco cuencas hidrográficas, la mayor masa glaciar de Colombia y con un reconocimiento mundial por la producción de valiosas esmeraldas. Nuestros ecosistemas van desde las nieves perpetuas hasta los terrenos desérticos; páramos, lagunas, cascadas, valles y montañas, pueden ser recorridas en un entorno de paz y seguridad. Las condiciones geográficas y culturales de este Departamento, permiten ofrecer maravillosas aventuras con una adecuada infraestructura; ya sea surcando los aires en parapente, escalando montañas, respirando el aire puro de nuestros páramos, liberando adrenalina en ríos y cascadas, pedaleando a 3.200 msnm o caminado por desiertos. En todo caso, queremos decirles que Boyacá, es para vivirla.</p>
     </div>
-
+    <div>
+        <h1>Atractivos Turísticos de Boyacá</h1>
+    <ul>
+        {% for item in datos %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Regresar a la página principal</a>
+    </div>
 {% endblock %}
